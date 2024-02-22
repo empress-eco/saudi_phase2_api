@@ -1,22 +1,61 @@
+<div align="center">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
+  <p>
+    A powerful tool for businesses and individuals to streamline VAT implementation in compliance with the 2024 Zatca e-invoicing guidelines.
+    <br />
+    <a href="https://grow.empress.eco/">Explore the Docs</a>
+    ·
+    <a href="https://github.com/empress-eco/saudi_phase2_api/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/saudi_phase2_api/issues/new">Request Feature</a>
+  </p>
+</div>
 
-**For the latest app with 2024 Zatca guidelines , please use this link.  https://github.com/ERPGulf/Saudi-E-Invoicing-Phase-2-2024
-**
+## About The Project
 
-## Saudi Phase2 Api
+**Saudi Phase2 Api** is an innovative application designed to simplify the implementation of Saudi VAT Phase-2 according to the new Zatca API release. It's optimized for performance and responsiveness, making it an ideal solution for businesses and individuals seeking to efficiently manage their VAT obligations in compliance with the latest standards.
 
-Saudi VAT Phase-2 implementation according to new Zatca API realease
+### Key Features
+- Full compliance with 2024 Zatca e-invoicing guidelines
+- Optimized API calls for improved performance and responsiveness 
+- Seamless installation and migration process
 
-#### License
+### Built With
+Saudi Phase2 Api is built on the robust and flexible Framework, providing a solid foundation for our application.
 
-mit# saudi-phase2-api
+## Getting Started
 
-This app is compliant with new Zatca e-invoicing document published in 2023. Also this app uses only API calls for better performance and response <br> 
+### Prerequisites
+Ensure the Framework is installed on your system.
 
-You can follow standard Frappe methods for installing apps. Please see it here below<br> 
-bench get-app https://github.com/ERPGulf/saudi-phase2-api.git<br> 
-bench --site yoursite.yourdomain.com install-app saudi-phase2-api<br> 
-bench --site yoursite.yourdomain.com migrate<br> 
+### Installation
+Follow these steps to set up your development environment:
 
-Now you can see Zatca API installed on your site. Goto Help->About and make sure you have Zatca app installaed.<br> 
+```sh
+# Clone the application
+git clone https://github.com/empress-eco/saudi_phase2_api.git
+# Install the app
+bench --site yoursite.yourdomain.com install-app saudi-phase2-api
+# Migrate the site
+bench --site yoursite.yourdomain.com migrate
+```
 
-Husna 
+Now, navigate to Help -> About on your site and verify that the Zatca app is installed.
+
+## Usage
+The application integrates seamlessly with your existing VAT management processes, helping you comply with the latest Zatca e-invoicing guidelines with ease and efficiency.
+
+## Contributing
+We welcome contributions! Here's how you can contribute:
+
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Branch (`git push origin feature/AmazingFeature`)
+- Open a Pull Request
+
+## License
+This project is licensed under the MIT License. All contributions are also licensed under the MIT License.
+
+## Acknowledgements
+We extend our sincere gratitude to the Empress Community for their foundational contributions to this project. Their innovation and dedication have been instrumental in building the essential tools that power our project.
